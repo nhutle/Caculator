@@ -1,0 +1,38 @@
+{
+  "name": "caculator",
+  "version": "1.0.0",
+  "description": "simple calculator with html, css, js",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhutle/caculator.git"
+  },
+  "keywords": [
+    "calculator",
+    "html",
+    "css",
+    "js"
+  ],
+  "author": "Nhut Le",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nhutle/caculator/issues"
+  },
+  "homepage": "https://github.com/nhutle/caculator#readme",
+  "devDependencies": {
+    "browser-sync": "^2.17.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-rimraf": "^0.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^2.0.0",
+    "jshint": "^2.9.3"
+  }
+}

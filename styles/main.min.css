@@ -1,0 +1,59 @@
+@media only screen and (min-width: 320px) {
+  .calculator {
+    padding: 15px;
+    background-color: #999;
+    border: 3px solid black;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+  }
+  .total {
+    background-color: #fff;
+    padding: 5px;
+    font-size: 60px;
+    text-align: right;
+  }
+  .operators,
+  .numbers {
+    overflow: auto;
+    padding: 15px 0 0px;
+  }
+  .operators > a,
+  .numbers > a {
+    display: block;
+    float: left;
+    color: #000;
+    background-color: #eee;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px 0;
+    text-decoration: none;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+  }
+  .operators > a {
+    width: 18%;
+  }
+  .operators > a + a{
+    margin-left: 2.5%;
+  }
+  .numbers > a {
+    width: 22%;
+    margin-top: 2%;
+  }
+  .numbers > a + a {
+    margin-left: 4%;
+  }
+
+  .numbers > a:nth-of-type(4n+1) {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (min-width: 480px) {}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (min-width: 1200px) {}
