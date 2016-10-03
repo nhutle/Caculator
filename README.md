@@ -30,7 +30,7 @@
 
 ### E. Live demo
 
-  * Please find the live demo [here](https://nhutle.github.io-/calculator/).
+  * Please find the live demo [here](https://nhutle.github.io/calculator/).
 
 ### F. Known issues
   * Fail to calculate a mix of operators
