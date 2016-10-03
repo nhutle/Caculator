@@ -1,7 +1,7 @@
 @media only screen and (min-width: 320px) {
   .calculator {
     padding: 15px;
-    background-color: #999;
+    background-color: #5f9ea0;
     border: 3px solid black;
     -webkit-border-radius: 5px;
     border-radius: 5px;
@@ -11,6 +11,9 @@
     padding: 5px;
     font-size: 60px;
     text-align: right;
+    min-height: 69px;
+    -ms-overflow-x: auto;
+        overflow-x: auto;
   }
   .operators,
   .numbers {
@@ -22,11 +25,11 @@
     display: block;
     float: left;
     color: #000;
-    background-color: #eee;
+    background-color: #d3d3d3;
     text-align: center;
     font-size: 30px;
     font-weight: bold;
-    padding: 5px 0;
+    padding: 10px 0;
     text-decoration: none;
     -webkit-border-radius: 10px;
     border-radius: 10px;
@@ -38,22 +41,45 @@
     margin-left: 2.5%;
   }
   .numbers > a {
-    width: 22%;
+    width: 30%;
     margin-top: 2%;
   }
   .numbers > a + a {
-    margin-left: 4%;
+    margin-left: 5%;
   }
 
-  .numbers > a:nth-of-type(4n+1) {
+  .numbers > a:nth-of-type(3n+1) {
     margin-left: 0;
   }
 }
 
-@media only screen and (min-width: 480px) {}
+@media only screen and (min-width: 480px) {
+  .calculator {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
 
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 640px) {
+  .calculator {
+    width: 50%;
+  }
+}
 
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 768px) {
+  .calculator {
+    width: 40%;
+  }
+}
 
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 992px) {
+  .calculator {
+    width: 30%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .calculator {
+    width: 20%;
+  }
+}

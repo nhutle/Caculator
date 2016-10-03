@@ -13,6 +13,9 @@
 
 3. Open ```localhost:3000``` to see the result.
 
+### Distribution
+
+1. Run ```gulp build``` to build a distribution version.
 
 ### Next plan
 * document ready within pure JS: https://gomakethings.com/a-native-javascript-equivalent-of-jquerys-ready-method/
