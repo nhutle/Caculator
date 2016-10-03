@@ -34,7 +34,7 @@
 
 ### F. Known issues
   * Fail to calculate a mix of operators
-    * For example: 3-2*4 should be -5, rather than 4 since I haven't imple-mented order of operations.
+    * For example: 3-2*4 should be -5, rather than 4 since I haven't implemented order of operations.
   * Lack of many functions: supporting negative numbers, decimal numbers, etc.
 
 ### G. Technical Improvement Suggestion
