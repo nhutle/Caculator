@@ -15,21 +15,24 @@
 
 ### B. Distribution
 
-1. Run ```gulp build``` to build a distribution version.
+  * Run ```gulp build``` to build a distribution version.
 
 ### C. How to use the plugin as a widget
 
 1. Copy all files in dist folder and place them inside your project.
 
+2. Embed Calculator's html code to your html file, don't forget to import main.min.js and main.min.css as well.
 
-2. Embed html code to your html file, don't forget to import main.min.js and main.min.css as well.
+### D. Object Model(UML)
 
-
-### D. UML class diagram
-
-1. Below is how I implement the Calculator in OOP way with JS.
+  * Below is how I implement the Calculator in OOP way with JS.
 ![class-diagram](https://cloud.githubusercontent.com/assets/7496221/19026407/1962330a-8958-11e6-9e58-9dc44f1b03c5.png)
 
+### E. Live demo
 
-### E. Next plan
-* document ready within pure JS: https://gomakethings.com/a-native-javascript-equivalent-of-jquerys-ready-method/
+  * Please find the live demo [here](https://nhutle.github.io-/calculator/).
+
+### F. Known issues
+  * Fail to calculate a mix of operators
+    * e.g: 3-2*4 should be 5, rather than 4 since I haven't imple-mented order of operations.
+  * Lack of many functions: supporting negative numbers, decimal numbers, etc.
