@@ -36,8 +36,3 @@
   * Fail to calculate a mix of operators
     * For example: 3-2*4 should be -5, rather than 4 since I haven't implemented order of operations yet.
   * Lack of many functions: supporting negative numbers, decimal numbers, etc.
-
-### G. Technical Improvement Suggestion
-
-  * I've found an example of Calculator which is able to implement mix of operators [here](https://codepen.io/joshsmith01/pen/viotJ).
-    However, it encounters a problem whenever user presses multiple operators button in an expression.
